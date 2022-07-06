@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------------------------ BOOTSTRAP ------------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- ------------------------------- SWIPER -------------------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ------------------------------- STYLES -------------------------------- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Digital Review</title>
+</head>
+<body class="d-flex justify-content-center align-items-center">
+
+    <div class="container-lg rounded">
+
+        <div class="row model__container">
+
+            <div class="col-2 col-lg-3 model__menu">
+                <!-- -------------------------------- LOGO --------------------------------- -->
+                <img src="./img/DR.png" class="rounded-circle d-lg-none w-100" alt="">
+                <h2 class="menu__title d-lg-block d-none text-white m-0">Digital Review</h2>
+                <nav>
+                    <h2>Menu</h2>
+                    <ul class="p-0" role="tablist">
+                        <li>
+                            <a href="#" type="button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" class="active d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-house"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="pills-store-tab" data-bs-toggle="pill" data-bs-target="#pills-store" type="button" role="tab" aria-controls="pills-store" aria-selected="false" data-toggle="tab" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-store"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Store</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="pills-tutorials-tab" data-bs-toggle="pill" data-bs-target="#pills-tutorials" type="button" role="tab" aria-controls="pills-tutorials" aria-selected="false" data-toggle="tab" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-video"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Tutorials</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <hr class="border-2 opacity-50">
+                <div id="user__menu">
+                    <h2>User</h2>
+                    <ul class="p-0 ">
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalSignIn" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-user-check"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Sign In</p>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalSignUp" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Sign Up</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="border-2 opacity-50">
+                <div>
+                    <h2>Social</h2>
+                    <ul class="p-0">
+                        <li>
+                            <a href="#" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Instagram</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">Facebook</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <p class="ms-3 my-0 d-none d-lg-block">WhatsApp</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="col-10 col-lg-9 model__body">
+                <div id="menu" class="row body__menu justify-content-end align-items-center">
+                    
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <div id="menu__methods" class="dropstart menu__user">
+                            
+                        </div>
+                        <div class="dropstart menu__notifications">
+                            <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell h5"></i>
+                            </button>
+                            <ul class="dropdown-menu" id="user__notifications">
+                                
+                                <!-- --------------------------- NOTIFICACIONES ---------------------------- -->
+                                
+
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- TABS -->
+                <div class="tab-content">
+                    <!-- HOME -->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        
+                        <div class="row justify-content-between align-items-center home__header">
+                            <div class="col-12 col-lg-5 my-3 home__header__logo">
+                                <h4>Nuestro logo</h4>
+                                <div class="card bg-dark p-0">
+                                    <img src="./img/DR.png" class="card-img" alt="...">
+                                    <div class="card-img-overlay d-flex justify-content-around flex-column">
+                                        <h1>Digital Review es una tienda online de ropa, en donde cada usuario tiene la libertad de publicar sus productos y asi hacer crecer su empredimiento. El unico requisito es que tus productos sean nuevos o que tengan poco uso, y principalmente que sean de calidad</h1>
+                                    </div>
+                                </div>            
+                            </div>
+                            <div class="col-12 col-lg-6 my-3 home__header__slider">
+                                <h4 class="home__header__slider__title">¿Digital Review?</h4>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column p-5">
+                                            <h4 class="text-light mb-3 h1">Tienda online</h4>
+                                            <p class="text-light text-center h5">Te prestamos nuestro sistema para que puedas vender tus productos de la forma mas facil y efectiva.</p>
+    
+                                        </div>
+                                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column p-5">
+                                            <h4 class="h1">¡Comenta!</h4>
+                                            <p class="text-light text-center h5 my-3">Deja un comentario sobre el producto que compraste</p>
+                                            <p class="text-light text-center h5">Evita que otros clientes tengan tu mismo probrema</p>
+    
+                                        </div>
+                                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column p-5">
+                                            <h4 class="text-light mb-3 h1">Visita nuestro catalogo</h4>
+                                        </div>
+                                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column p-5">
+                                            <h4 class="text-light mb-4 h1">Create un usuario</h4>
+                                            <p class="text-center align-self-end h5 text-light">Obtendras una mejor experiencia en nuestro sitio</p>
+                                        </div>
+                                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column p-5">
+                                            <h4 class="text-light mb-4 h1">¿Necesitas ayuda?</h4>
+                                            <p class="text-center align-self-end h5 text-light">Mira nuestros tutoriales o contactenos por nuestras redes social</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home__products">
+                            <div class="row products__title">
+                                <h3>Productos Nuevos</h3>
+                            </div>
+                            <div class="row products__body justify-content-center align-items-center" id="product__featured" role="tablist">
+                                <!-- -------------------------- PRODUCTOS NUEVOS --------------------------- -->
+                            </div>
+                        </div>
+
+                        <div class="home__comments">
+                            <div class="row comments__title">
+                                <h3>Comentarios</h3>
+                            </div>
+                            <div class="row comments__body">
+                                <div class="swiper mySwiper2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide p-5 row m-0">
+                                            <div class="col-lg-12 d-flex justify-content-around flex-column align-items-start slide__body">
+                                                <h5>Un servicio increible</h5>
+                                                <p>Recibí el pedido en menos de una semana ¡Llego antes de lo esperado! </p>
+                                                <div>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide p-5 row m-0">
+                                            <div class="col-lg-12 d-flex justify-content-around flex-column align-items-start slide__body">
+                                                <h5>El producto no llego.</h5>
+                                                <p>Apesar de que el prodicto no llego, Digital Review soluciono el problema en menos de dos semanas. Una respuesta casi inmediata</p>
+                                                <div>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star star--inactive"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide p-5 row m-0">
+                                            <div class="col-lg-12 d-flex justify-content-around flex-column align-items-start slide__body">
+                                                <h5>Mis ventas han aumentado</h5>
+                                                <p>Desde que comence a verder por Digital Review mis ventas aumentaron muchisimo</p>
+                                                <div>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------- STORE -------------------------------- -->
+                    <div class="tab-pane fade" id="pills-store" role="tabpanel" aria-labelledby="pills-store-tab" tabindex="0">
+                        <div class="row  store__filter">
+                            <div class="input-group justify-content-center mb-3">
+                 
+                                <input type="text" class="form-control m-0" placeholder="Buscar" id="storeInputFilter" aria-describedby="basic-addon1">
+                                <select class="" id="productCategoryFilter">
+                                    <option value="">Todos</option>
+                                    <option value="buzos">Buzos</option>
+                                    <option value="remeras">Remeras</option>
+                                    <option value="camperas">Camperas</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center align-items-center store__body" id="storeBody">
+                            <!-- ------------------------- PRODUCTOS DEL STORE ------------------------- -->
+                        </div>
+                        
+                    </div>
+
+                    <!-- TUTORIALS -->
+                    <div class="tab-pane fade" id="pills-tutorials" role="tabpanel" aria-labelledby="pills-tutorials-tab" tabindex="0">
+                        <!-- -------- <h1 class="text-center text-light">En desarrollo</h1> -------- -->
+
+                        <div class="row tutorials__header my-5">
+                            <h6 class="header__title">Turoriales de la pagina</h6>
+                        </div>
+                        <div class="row tutorials__body justify-content-center align-items-center mb-5">
+                            <div class="row tutorials__body__header justify-content-center align-items-center mb-5">
+                                <div class="col-4">
+                                    <button class="btn w-100 active" id="tutorialsBtnUser">
+                                        <p class="m-0">User</p>
+                                        <i class="fa-solid fa-user"></i>
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn w-100" id="tutorialsBtnStore">
+                                        <p class="m-0">Store</p>
+                                        <i class="fa-solid fa-store"></i>
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn w-100" id="tutorialsBtnProduct">
+                                        <p class="m-0">Products</p>
+                                        <i class="fa-solid fa-shirt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row tutorials__body__container" id="mySwiper3">
+                                <div class="swiper mySwiper3">
+                                    <div class="swiper-wrapper">
+                                        <!-- ----------------------------- TUTORIALES ------------------------------ -->
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------ MODAL INICIAR SESION ------------------------- -->
+    <div class="modal fade" id="modalSignIn" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Iniciar sesion</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formSignin">
+                        <div class="mb-3">
+                            <label for="signinName" class="form-label">Email o Username</label>
+                            <input type="text" class="form-control" id="signinName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signinPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signinPassword">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="signinCheck">
+                            <label class="form-check-label" for="signinPassword">remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn">Iniciar sesion</button>
+                        <button type="button" class="btn btn__close" data-bs-dismiss="modal" id="formSigninClose">Close</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------- MODELA REGISTRARSE -------------------------- -->
+    <div class="modal fade" id="modalSignUp" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Crear usuario</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formSignup">
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signupEmail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupUsername" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="signupUsername">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword2" class="form-label">Confirm password</label>
+                            <input type="password" class="form-control" id="signupPassword2">
+                        </div>
+                        <button type="submit" class="btn" >Registrarse</button>
+                        <button type="button" class="btn btn__close" data-bs-dismiss="modal" id="formSignUpClose">Close</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------ MODAL CREATE PRODUCT ------------------------- -->
+    <div class="modal fade" id="modalCreateProduct" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Subir un producto</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formCreateProduct">
+                        <div class="mb-3">
+                            <label for="productTitle" class="form-label">Nombre del producto</label>
+                            <input type="text" class="form-control" maxlength="15" id="productTitle">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productDescription" class="form-label">Descripcion</label>
+                            <input type="text" class="form-control" id="productDescription">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productPrice" class="form-label">Precio</label>
+                            <input type="text" class="form-control" id="productPrice">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productCategory" class="form-label">Categoria</label>
+                            <select class="form-select" id="productCategory">
+                                <option selected value="">Choose...</option>
+                                <option value="buzos">Buzos</option>
+                                <option value="remeras">Remeras</option>
+                                <option value="camperas">Camperas</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn" >Crear producto</button>
+                        <button type="button" class="btn btn__close" id="formCreateProductClose" data-bs-dismiss="modal">Close</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------- MODAL CARRITO ---------------------------- -->
+    <div class="modal fade" id="modalCarrito" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Carrito</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table" id="modalCarritoList">
+                        <thead>
+                            <tr>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Precio/u</th>
+                                <th scope="col" class="carrito__responsive">Precio total</th>
+                                <th scope="col">#</th>
+    
+                            </tr>
+                        </thead>  
+                        <tbody id="modalCarritoItemList">
+                                
+                        </tbody> 
+                        <th scope="col">Total:</th>    
+                        <td id="precioTotal"></td>          
+                    </table>
+                    <div id="btnCarritoContainer" class="row p-3">
+                        <button id="btnCarritoDelete" class="col-3 btn btn__close">Eliminar carrito</button>
+                        <button id="btnCarritoBuy" data-bs-toggle="modal" data-bs-target="#modalBuyCarrito" class="col-3 btn btn__buy">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------ MODAL ITEM PRODUCTOS ------------------------- -->
+    <div class="modal fade" id="modalItem" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="row modal__body justify-content-center align-items-center">
+                        <div class="col-lg-6 col-12 row justify-content-center align-items-center">
+                            <img class="p-0" src="./img/buzos.png" alt="" id="modal__img">
+                        </div>
+                        <div class="col-lg-6 col-12 px-5 modal__text">
+                            <h6 id="modal__title">Buzo</h6>
+                            <p id="modal__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ex, neque facilis laudantium laboriosam ut quisquam itaque ducimus. Possimus voluptate provident, quas reprehenderit laboriosam sunt voluptatem earum repudiandae sapiente consequatur.</p>
+                            <div class="modal__bottom">
+                                <p class="category">
+                                    Categoria: <span id="modal__category">Buzo</span>
+                                </p>
+    
+                                <p class="price">Precio/u: <span id="modal__price">$100</span></p>
+                            </div>
+                            <div class="row flex-row justify-content-between align-items-center modal__footer">
+                                <div class="p-0 col-5 p-2">
+                                    <input type="number" class="form-control" value="1" min="1" id="cantidadItems">
+                                </div>
+                                <div class="p-0 col-5 modal__button__container" id="modal__button__container"></div>
+                            </div>
+                        </div>
+                        <div class="modal__comments">
+                            <p class="comments__title pb-3">Comentarios del producto</p>
+                            <input type="text" placeholder="Escribe un comentario" class="form-control" id="inputCreateComment">
+                            <div class="row comment__container py-2 px-3" id="modal__comments">
+                                <!-- ------------------------ COMENTARIOS DESDE JK ------------------------- -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------ MODAL COMPRAR CARRITO ------------------------ -->
+    <div class="modal fade" id="modalBuyCarrito" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Comprar</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modalBuyCarritoClose"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center align-items-center flex-column">
+                    <div class="tarjeta" id="tarjeta">
+                        <div class="tarjeta__delantera">
+                            <div class="row justify-content-end marca__logo" id="marcaLogo">
+                                <!-- --------------------------- IMAGEN DEL LOGO --------------------------- -->
+                            </div>
+                            <img src="./img/chip-tarjeta.png" class="row tarjeta__chip" alt="">
+                            <div class="row flex-column justify-content-start align-items-center tarjeta__grupo">
+                                <p class="tarjeta__label">Numero Tarjeta</p>
+                                <p class="tarjeta__numero tarjeta__text" id="tarjetaNumero">#### #### #### ####</p>
+                            </div>
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col tarjeta__grupo">
+                                    <p class="tarjeta__label">Nombre Tarjeta</p>
+                                    <p class="tarjeta__nombre tarjeta__text" id="tarjetaNombre">jhon doe</p>
+                                </div>
+                                <div class="col tarjeta__grupo text-end">
+                                    <p class="tarjeta__label pe-3">Expiracion</p>
+                                    <p class="tarjeta__expiracion tarjeta__text" id="tarjeta__expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta__trasera">
+                            <div class="tarjeta__barra__magnetica"></div>
+                            <div class="row tarjeta__datos justify-content-between align-items-center">
+                                <div class="col-9">
+                                    <p class="text-light">Firma</p>
+                                    <div class="tarjeta__firma d-flex justify-content-start align-items-center px-3">
+                                        <p id="tarjetaFirma"></p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-light">CCV</p>
+                                    <div class="tarjeta__ccv d-flex justify-content-center align-items-center">
+                                        <p class="m-0" id="tarjeta__ccv"></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 tarjeta__texto mt-4">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fuga ab saepe? Minima dolorem, amet corrupti, eos cumque culpa expedita</p>
+                                    <a href="#">www.tuBanco.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn__form__container">
+                        <button id="btn-abrir-formulario">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+
+                    <form class="w-100 tarjeta__form" id="tarjeta__form">
+                        <div class="mb-3">
+                            <label for="tarjetaNumeroInput" class="form-label">Numero de tarjeta</label>
+                            <input type="text" class="form-control" id="tarjetaNumeroInput" maxlength="19" autocomplete="off">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tarjetaNombreInput" class="form-label">Titular de la tarjeta</label>
+                            <input type="text" class="form-control" id="tarjetaNombreInput" maxlength="19" autocomplete="off">
+                        </div>
+                        <div class="mb-3 row">
+                            <div class="col-9">
+                                <label for="selectMes" class="form-label">Expiracion</label>
+                                <div class="row tarjeta__select px-2" id="tarjeta__select">
+                                    <select name="mes" id="selectMes" class="form-control col me-2">
+                                        <option disabled selected value="">Mes</option>
+                                        <!-- --------------------- OPTIONS GENERADOS DESDE JS ---------------------- -->
+                                    </select>
+
+                                    <select name="year" id="selectYear" class="form-control col">
+                                        <option disabled selected value="">Año</option>
+                                        <!-- --------------------- OPTIONS GENERADOS DESDE JS ---------------------- -->
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <label for="tarjetaCCVInput" class="form-label">CCV</label>
+                                <input type="text" class="form-control" id="tarjetaCCVInput" maxlength="3">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button  id="ventaButton" class="btn btn-primary">Comprar</button>
+                            <p class="text-white m-0">Total: <span class="text-success" id="ventaPrecioTotal"></span></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 SCRIPTS                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ------------------------------ BOOTSTRAP ------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- ----------------------------- FONTAWESOME ----------------------------- -->
+    <script src="https://kit.fontawesome.com/a6528d3960.js" crossorigin="anonymous"></script>
+    <!-- ------------------------------ SWIPER JS ------------------------------ -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ----------------------------- SWEETALERT2 ----------------------------- -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- ----------------------------- ARCHIVO JS ------------------------------ -->
+    <script type="module" src="./js/main.js"></script>
+    
+</body>
+</html>

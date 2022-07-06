@@ -1,0 +1,1352 @@
+#modalItem .modal-content .modal-body::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar, body .container-lg .model__container .model__menu::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button, body .container-lg .model__container .model__menu::-webkit-scrollbar-button {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track, body .container-lg .model__container .model__menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#modalItem .modal-content .modal-body::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar, body .container-lg .model__container .model__menu::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button, body .container-lg .model__container .model__menu::-webkit-scrollbar-button {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track, body .container-lg .model__container .model__menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+body {
+  overflow: hidden;
+  background: url("../img/ufo-1265186_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+body .container-lg {
+  height: 80vh;
+  background-color: #1f1d2b;
+}
+body .container-lg .model__container {
+  height: 100%;
+}
+body .container-lg .model__container .model__menu {
+  padding: 1rem 0.5rem;
+  overflow-y: scroll;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu {
+    padding: 3rem;
+  }
+}
+body .container-lg .model__container .model__menu .menu__title {
+  font-size: 1.75rem;
+}
+body .container-lg .model__container .model__menu h2 {
+  color: #808191;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    text-align: start;
+    font-size: 1rem;
+  }
+}
+body .container-lg .model__container .model__menu ul {
+  list-style: none;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu ul {
+    align-items: flex-start;
+  }
+}
+body .container-lg .model__container .model__menu ul li {
+  margin: 1rem 0;
+}
+body .container-lg .model__container .model__menu ul li a {
+  text-decoration: none;
+  color: #808191;
+  font-size: 1rem;
+}
+body .container-lg .model__container .model__menu ul li a:hover {
+  color: #4bb1cd;
+}
+body .container-lg .model__container .model__menu ul li a.active i {
+  color: #4bb1cd;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu ul li a.active i {
+    color: #fff;
+    background-color: #4bb1cd;
+  }
+  body .container-lg .model__container .model__menu ul li a.active p {
+    color: #fff;
+  }
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu ul li a i {
+    background-color: #353340;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  body .container-lg .model__container .model__menu ul li a:hover i {
+    color: #fff;
+    background-color: #4bb1cd;
+  }
+  body .container-lg .model__container .model__menu ul li a:hover p {
+    color: #fff;
+  }
+}
+body .container-lg .model__container .model__menu hr {
+  color: #808191;
+  margin: 1rem 0;
+}
+body .container-lg .model__container .model__body {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 1.5rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__body {
+    padding: 3rem;
+  }
+}
+body .container-lg .model__container .model__body .body__menu h3 {
+  color: #fff;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications button i {
+  color: #808191;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications button:hover i {
+  color: #fff;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul {
+  background-color: #171521;
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding: 0;
+  width: 200px;
+  overflow-x: hidden;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul li {
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.5rem 0;
+  border-bottom: 2px solid #808191;
+  color: #fff;
+  font-size: 16px;
+  max-width: 190px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul li:hover {
+  color: #171521;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user button {
+  color: #808191;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 0.5rem;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user button:hover {
+  color: #fff;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul {
+  background-color: #353340;
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding: 0;
+  width: 200px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul li {
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.5rem 0;
+  border-bottom: 2px solid #808191;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__user ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+body .modal .modal-content {
+  background-color: #1f1d2b;
+}
+body .modal .modal-content h6 {
+  color: #fff;
+}
+body .modal .modal-content label {
+  color: #808191;
+}
+body .modal .modal-content input {
+  background-color: #353340;
+  border: #1f1d2b;
+  color: #808191;
+}
+body .modal .modal-content .form-select {
+  background-color: #353340;
+  border: none;
+  color: #808191;
+}
+body .modal .modal-content button {
+  background-color: #4bb1cd;
+  border: none;
+  color: #fff;
+}
+body .modal .modal-content button.btn__close {
+  background-color: #c60000;
+  color: #fff;
+}
+body .modal .modal-content button:nth-child(2) {
+  background-color: #353340;
+  color: #808191;
+}
+body .modal .modal-content button.btn__buy {
+  background-color: #007500;
+  color: #fff;
+}
+
+#modalItem .modal-content .modal-body::-webkit-scrollbar, body .container-lg .model__container .model__menu::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button, body .container-lg .model__container .model__menu::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-track, body .container-lg .model__container .model__menu::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#pills-home .home__header .home__header__logo {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+#pills-home .home__header .home__header__logo h4 {
+  color: #808191;
+  margin: 1.5rem 0;
+}
+#pills-home .home__header .home__header__logo img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+#pills-home .home__header .home__header__logo .card {
+  height: 80%;
+}
+#pills-home .home__header .home__header__logo .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#pills-home .home__header .home__header__logo .card .card-img-overlay {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+}
+#pills-home .home__header .home__header__logo .card .card-img-overlay h1 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+#pills-home .home__header .home__header__logo .card .card-img-overlay:hover {
+  opacity: 1;
+}
+#pills-home .home__header .home__header__slider {
+  height: 400px;
+}
+#pills-home .home__header .home__header__slider .home__header__slider__title {
+  color: #808191;
+  margin: 1.5rem 0;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide {
+  max-height: 260px;
+  width: 100%;
+  border-radius: 20px;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) {
+  background-color: #ff7551;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) {
+  background-color: #4bb1cd;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) a {
+  color: #fff;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) a:hover {
+  color: #275d6c;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) {
+  background-color: #6c5ecf;
+}
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) {
+  background-color: #808191;
+}
+#pills-home .home__products {
+  margin: 3rem 0;
+}
+#pills-home .home__products .products__title h3 {
+  color: #808191;
+  text-align: center;
+}
+#pills-home .home__products .products__body a {
+  color: #fff;
+}
+#pills-home .home__products .products__body a .card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+}
+#pills-home .home__products .products__body a .card .card-img-overlay:hover {
+  opacity: 1;
+}
+#pills-home .home__comments .comments__title {
+  color: #808191;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+#pills-home .home__comments .comments__body .swiper {
+  height: 300px;
+  background-color: red;
+  border-radius: 20px;
+  background-color: #353340;
+}
+#pills-home .home__comments .comments__body .swiper .swiper-wrapper .swiper-slide h5 {
+  color: #fff;
+}
+#pills-home .home__comments .comments__body .swiper .swiper-wrapper .swiper-slide p {
+  color: #808191;
+}
+#pills-home .home__comments .comments__body .swiper .swiper-wrapper .swiper-slide i {
+  color: #d4af37;
+}
+#pills-home .home__comments .comments__body .swiper .swiper-wrapper .swiper-slide i.star--inactive {
+  color: #808191;
+}
+
+#modalItem .modal-content .modal-body::-webkit-scrollbar, body .container-lg .model__container .model__menu::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button, body .container-lg .model__container .model__menu::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-track, body .container-lg .model__container .model__menu::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#pills-store .store__filter {
+  margin: 1.5rem 0;
+}
+#pills-store .store__filter button {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #353340;
+  border: none;
+}
+#pills-store .store__filter button i {
+  color: #808191;
+}
+#pills-store .store__filter select {
+  background-color: #353340;
+  color: #808191;
+  border: none;
+  width: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 4px solid #1f1d2b;
+}
+#pills-store .store__filter select option {
+  color: #808191;
+}
+#pills-store .store__filter input {
+  background-color: #353340;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin: 1.5rem 0.5rem;
+  max-width: 500px;
+  color: #808191;
+}
+#pills-store .store__body {
+  margin: 0.5rem 0;
+}
+#pills-store .store__body a {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+#pills-store .store__body a .card {
+  background-color: #353340;
+  transition: all 0.5s;
+}
+@media (min-width: 992px) {
+  #pills-store .store__body a .card {
+    height: 310px;
+  }
+}
+@media (min-width: 1200px) {
+  #pills-store .store__body a .card {
+    height: 350px;
+  }
+}
+#pills-store .store__body a .card .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#pills-store .store__body a .card div h5 {
+  color: #808191;
+  font-size: 1.25rem;
+}
+#pills-store .store__body a .card div p {
+  color: #009900;
+}
+#pills-store .store__body a .card div small {
+  color: #808191;
+  font-weight: 100;
+}
+#pills-store .store__body a .card div small span {
+  color: #4bb1cd;
+}
+#pills-store .store__body a .card:hover {
+  transform: scale(1.05);
+}
+#pills-store .store__body .text__not__found {
+  text-align: center;
+  color: #808191;
+  margin: 3rem 0;
+}
+#pills-store .store__bottom button {
+  background-color: #353340;
+  color: #808191;
+  transition: all ease-in-out 0.3s;
+  border: none;
+}
+#pills-store .store__bottom button:hover {
+  background-color: #4bb1cd;
+  color: #fff;
+}
+
+#modalItem .modal-content .modal-body::-webkit-scrollbar, body .container-lg .model__container .model__menu::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:vertical, body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-button, body .container-lg .model__container .model__menu::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button {
+  display: none;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-thumb, body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+#modalItem .modal-content .modal-body::-webkit-scrollbar-track, body .container-lg .model__container .model__menu::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#modalItem .modal-content .modal-header button {
+  background-color: #808191;
+}
+@media (min-width: 992px) {
+  #modalItem .modal-content .modal-body {
+    padding: 0 3rem;
+  }
+}
+#modalItem .modal-content .modal-body .modal__body h6 {
+  color: #808191;
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 1rem 0;
+}
+#modalItem .modal-content .modal-body .modal__body img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-height: 450px;
+  object-fit: cover;
+}
+#modalItem .modal-content .modal-body .modal__body p {
+  color: #808191;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__bottom .category span {
+  color: #4bb1cd;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__bottom .price span {
+  color: green;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__footer {
+  flex-direction: column;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__footer input {
+  height: 30px;
+  color: #808191;
+  border-radius: 10px;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__footer .modal__button__container button {
+  height: 30px;
+  border-radius: 10px;
+  background-color: #353340;
+  color: #808191;
+}
+#modalItem .modal-content .modal-body .modal__body .modal__footer .modal__button__container button:hover {
+  background-color: #4bb1cd;
+  color: #fff;
+}
+#modalItem .modal-content .modal-body .modal__comments .comments__title {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 20px;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card {
+  background-color: #171523;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .commentMethodsContainer .buttonSubmit {
+  background-color: #353340;
+  color: #808191;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .commentMethodsContainer .buttonSubmit:hover {
+  background-color: #4bb1cd;
+  color: #fff;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .commentMethodsContainer .buttonSubmit.active {
+  display: none;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .commentMethodsContainer .inputResponse {
+  display: none;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .commentMethodsContainer .inputResponse.active {
+  display: block;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .card .card-body .card-footer .btnVerRespuestas:hover {
+  color: #4bb1cd;
+  cursor: pointer;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .containerCommnetsResponses {
+  height: 0;
+  overflow-y: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: all 0.3s ease-out;
+}
+#modalItem .modal-content .modal-body .modal__comments .comment__container .col-12 .containerCommnetsResponses.active {
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+body .container-lg .model__container .model__menu::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar, #modalItem .modal-content .modal-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical, #modalItem .modal-content .modal-body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment, #modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button, #modalItem .modal-content .modal-body::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal, #modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb, #modalItem .modal-content .modal-body::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track, #modalItem .modal-content .modal-body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#modalCarrito #modalCarritoList {
+  width: 100%;
+}
+#modalCarrito #modalCarritoList tr th {
+  color: #fff;
+  font-weight: normal;
+}
+#modalCarrito #modalCarritoList tr td {
+  color: #808191;
+}
+#modalCarrito #modalCarritoList tr td input {
+  width: 50px;
+}
+#modalCarrito #modalCarritoList tr td button {
+  background-color: #cd0000;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+@media (max-width: 420px) {
+  #modalCarrito #modalCarritoList .carrito__responsive {
+    display: none;
+  }
+}
+
+#modalBuyCarrito .tarjeta {
+  width: 100%;
+  max-width: 550px;
+  position: relative;
+  color: #fff;
+  transition: 0.3s ease all;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  cursor: pointer;
+  z-index: 2;
+}
+#modalBuyCarrito .tarjeta.active .tarjeta__delantera {
+  transform: rotateY(180deg);
+}
+#modalBuyCarrito .tarjeta.active .tarjeta__trasera {
+  transform: rotateY(0deg);
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera {
+  width: 100%;
+  background: url("../img/bg-tarjeta-02.jpg");
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+  min-height: 315px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: 0.3s ease all;
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera .marca__logo {
+  text-align: right;
+  min-height: 50px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera .marca__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 80px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera .tarjeta__chip {
+  width: 100%;
+  max-width: 50px;
+  margin-bottom: 20px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera .tarjeta__text {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+#modalBuyCarrito .tarjeta .tarjeta__delantera .tarjeta__label {
+  font-size: 16px;
+  color: #7d8994;
+  margin-bottom: 5px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera {
+  padding: 30px;
+  border-radius: 15px;
+  min-height: 315px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: 0.3s ease all;
+  background: url("../img/bg-tarjeta-02.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+  /* Este estilo hace que la parte de atras del componente no se vea */
+  backface-visibility: hidden;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__barra__magnetica {
+  height: 40px;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos {
+  margin-top: 60px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos p {
+  margin-bottom: 5px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos .tarjeta__firma {
+  height: 40px;
+  background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos .tarjeta__firma p {
+  line-height: 40px;
+  font-family: "Dancing Script", cursive;
+  color: #000;
+  font-size: 30px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos .tarjeta__ccv {
+  background-color: #fff;
+  height: 40px;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos .tarjeta__texto p {
+  font-size: 14px;
+  line-height: 24px;
+}
+#modalBuyCarrito .tarjeta .tarjeta__trasera .tarjeta__datos .tarjeta__texto a {
+  font-size: 14px;
+  color: #fff;
+}
+#modalBuyCarrito .btn__form__container button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #2364d2;
+  line-height: 20px;
+  position: relative;
+  top: -25px;
+  z-index: 3;
+  border: none;
+  border-radius: 100%;
+  box-shadow: -5px 4px 8px rgba(24, 56, 182, 0.4);
+  padding: 5px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+#modalBuyCarrito .btn__form__container button:hover {
+  background-color: #1850b1;
+}
+#modalBuyCarrito .btn__form__container button.active {
+  transform: rotate(45deg);
+}
+#modalBuyCarrito .tarjeta__form {
+  width: 100%;
+  max-width: 700px;
+  padding: 150px 30px 30px 30px;
+  border-radius: 10px;
+  position: relative;
+  top: -150px;
+  z-index: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: clip-path 0.3s ease-out;
+}
+#modalBuyCarrito .tarjeta__form.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+#modalBuyCarrito .tarjeta__form .tarjeta__select select {
+  background-color: #353340;
+  border: #1f1d2b;
+  color: #808191;
+}
+
+body .container-lg .model__container .model__menu::-webkit-scrollbar, body .container-lg .model__container .model__body::-webkit-scrollbar, #modalItem .modal-content .modal-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body::-webkit-scrollbar:vertical, #modalItem .modal-content .modal-body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body::-webkit-scrollbar-button:increment, #modalItem .modal-content .modal-body::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-button, body .container-lg .model__container .model__body::-webkit-scrollbar-button, #modalItem .modal-content .modal-body::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body::-webkit-scrollbar:horizontal, #modalItem .modal-content .modal-body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body::-webkit-scrollbar-thumb, #modalItem .modal-content .modal-body::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__menu::-webkit-scrollbar-track, body .container-lg .model__container .model__body::-webkit-scrollbar-track, #modalItem .modal-content .modal-body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:vertical, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button:increment, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button:increment {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-button, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-button {
+  display: none;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar:horizontal, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-thumb, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-thumb {
+  background-color: #181722;
+  border-radius: 20px;
+}
+body .container-lg .model__container .model__body .body__menu div .menu__notifications ul::-webkit-scrollbar-track, body .container-lg .model__container .model__body .body__menu div .menu__user ul::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+body .container-lg .model__container .model__menu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(4) h4 {
+  text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(1) h4 {
+  text-shadow: 20px 10px 0px #ff5900, -15px -6px 0px #4bb1cd;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+  color: #fff;
+  background: #000;
+  text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(3) h4 {
+  text-shadow: -5px 5px 0px #61bdd6, -10px 10px 0px #398da4, -15px 15px 0px #1983a1;
+}
+
+#pills-home .home__header .home__header__slider .swiper .swiper-wrapper .swiper-slide:nth-child(5) h4 {
+  text-shadow: 0 2px 1px #6d9ca0, -1px 3px 1px #7594ad, -2px 5px 1px #1b6572;
+}
+
+body .container-lg .model__container .model__menu h2 {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  body .container-lg .model__container .model__menu h2 {
+    font-size: 1.25rem;
+  }
+}
+
+#pills-tutorials .tutorials__header .header__title {
+  color: #808191;
+  font-size: 1.75rem;
+  text-align: center;
+}
+#pills-tutorials .tutorials__body .tutorials__body__header button {
+  color: #808191;
+  border: 1px solid #353340;
+}
+@media (max-width: 500px) {
+  #pills-tutorials .tutorials__body .tutorials__body__header button p {
+    display: none;
+  }
+}
+#pills-tutorials .tutorials__body .tutorials__body__header button:hover {
+  background-color: #353340;
+  border: 1px solid #353340;
+  color: #fff;
+}
+#pills-tutorials .tutorials__body .tutorials__body__header button.active {
+  background-color: #4bb1cd;
+  color: #fff;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper {
+  width: 100%;
+  height: 500px;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-slide {
+  background: #171521;
+  color: #808191;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-slide .swiper__step {
+  font-size: 1.5rem;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-slide .swiper__title {
+  color: #4bb1cd;
+  font-size: 1.25rem;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-slide .swiper__img img {
+  width: 100%;
+  object-fit: contain;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: #353340;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-button-next {
+  color: #353340;
+}
+#pills-tutorials .tutorials__body .tutorials__body__container .swiper .swiper-button-prev {
+  color: #353340;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

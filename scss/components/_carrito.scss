@@ -1,0 +1,40 @@
+@import '../base/base';
+
+#modalCarrito{
+    #modalCarritoList{
+
+        width: 100%;
+    
+        tr{
+    
+            th{
+                color: #fff;
+                font-weight: normal;
+            }
+    
+            td{
+                color: $color-gray;
+    
+                input{
+                    width: 50px;
+                }
+    
+                button{
+                    background-color: rgb(205, 0, 0);
+                    padding: 3px 8px;
+                    border-radius: 8px;
+                }
+            }
+    
+        }
+
+        .carrito__responsive{
+            @media (max-width: 420px) {
+                display: none;
+            }
+            
+        }
+
+    }
+    
+}
