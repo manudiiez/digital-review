@@ -1,0 +1,17 @@
+# ---------------------------------------------------------------------------- #
+#                                DIGITAL REVIEW                                #
+# ---------------------------------------------------------------------------- #
+
+Es un tienda online que cuenta con las siguientes caracteristicas.
+
+1 - Se puede crear un usuario.
+
+2 - Se puede interactuar con los comentarios de un producto, se puede dejar la opinion sobre un producto y responder antiguas opiniones.
+
+3 - Se puede subir un producto para que otros usuarios lo compren.
+
+4 - Se puede interactual con el carrito.
+
+5 - Se pueden ver notificaciones de las actividades que has realizado en la sesion(sin actualizar la pagina)
+
+6 - Si no se entiende bien el funcionamiento se puede dirigir al menu de tutoriales

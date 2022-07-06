@@ -5,7 +5,7 @@
                 "step": "Paso 1",
                 "title": "Crear un usuario",
                 "text": "Para crear un usuario debe dirigirse al menu de la izquierda, y seleccionar la opcion Sign Up. Luego debe completar todos los campos para poder generar el usuario, se pueden tener varios usuarios con el mismo email, pero el nombre de usuario debe ser unico",
-                "img": "./img/camperas.png"
+                "img": "./img/userPaso1.png"
             },
             {
                 "step": "Paso 2",
