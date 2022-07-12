@@ -1,6 +1,6 @@
 # Digital Review
 
-Digital Review es una tienda online de ropa. Es mi proyecto final del curso de JavaScript de CoderHouse. Esta desarrollado con JavaScriptVanilla, HTML, CSS.
+Digital Review es una tienda online de ropa y es uno de mis proyectos finales del curso de JavaScript de CoderHouse. Esta desarrollado con JavaScript vanilla, HTML y CSS.
 
 [Link al GitPages de la aplicación.](https://manudiiez.github.io/digital-review/)
 
