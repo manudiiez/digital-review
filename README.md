@@ -1,8 +1,9 @@
 # Digital Review
 
-Digital Review es una tienda online de ropa, en donde cada usuario tiene la libertad de publicar sus productos y asi hacer crecer su empredimiento.
+Digital Review es una tienda online de ropa. Es mi proyecto final del curso de JavaScript de CoderHouse. Esta desarrollado con JavaScriptVanilla, HTML, CSS.
+[Link al GitPages de la aplicación.](https://manudiiez.github.io/digital-review/)
 
-###### Funciones de la aplicación
+##### Funciones de la aplicación
 
 - Crear usuarios.
 - Iniciar una sesion en un usuario exitente o nuevo.
